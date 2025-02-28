@@ -1,1 +1,1 @@
-# Nodejs Study
+# Coding Game Solvers
