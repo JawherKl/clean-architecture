@@ -1,1 +1,1 @@
-# Coding Game Solvers
+# Clean Architecture
