@@ -111,4 +111,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 **Inspired by**: "Clean Architecture: A Craftsman's Guide to Software Structure and Design" by Robert C. Martin
-```
