@@ -8,7 +8,7 @@ A practical implementation of Clean Architecture principles inspired by Robert C
 
 ## 📖 Table of Contents
 
-- [Core Principles](#-core-principles)
+- [Core Principles](#-core)
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [Testing Strategy](#-testing-strategy)
@@ -37,14 +37,14 @@ clean-architecture/
 │   ├── preface.md                   # Project introduction and goals
 │   ├── acknowledgments.md           # Credits and acknowledgments
 │   ├── principles/                  # Architectural principles
-│   │   ├── design-principles/       # SOLID principles
+│   │   ├── design/       # SOLID principles
 │   │   │   ├── srp.md               # Single Responsibility Principle
 │   │   │   ├── ocp.md               # Open/Closed Principle
 │   │   │   ├── lsp.md               # Liskov Substitution Principle
 │   │   │   ├── isp.md               # Interface Segregation Principle
 │   │   │   └── dip.md               # Dependency Inversion Principle
-│   │   ├── component-principles/    # Component cohesion/coupling
-│   │   └── architectural-principles/
+│   │   ├── component/    # Component cohesion/coupling
+│   │   └── architectural/
 │   └── case-studies/                # Example implementations
 │
 ├── src/                            # Source code
@@ -142,8 +142,8 @@ make test-e2e   # Run end-to-end tests
 
 Explore our comprehensive documentation:
 
-- [Design Principles](docs/principles/design-principles)
-- [Component Architecture](docs/principles/component-principles)
+- [Design Principles](docs/principles/design)
+- [Component Architecture](docs/principles/component)
 - [Case Studies](docs/case-studies)
 
 ## 🏗 Case Studies

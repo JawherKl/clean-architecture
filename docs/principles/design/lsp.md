@@ -82,4 +82,4 @@ class Square implements Shape {
 - Apply **composition over inheritance** when behavioral changes occur
 - Create **shared contract tests** for interface implementations
 
-[Next Principle →](/docs/principles/design-principles/isp.md)
+[Next Principle →](/docs/principles/design/isp.md)
