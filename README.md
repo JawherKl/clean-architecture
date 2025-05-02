@@ -29,12 +29,71 @@ This implementation follows the key tenets of Clean Architecture:
 ## 🗂 Repository Structure
 
 ```
-clean-architecture-project/
-├── docs/          # Architectural documentation and principles
-├── src/           # Source code organized by clean architecture layers
-├── tests/         # Comprehensive test suites
-├── examples/      # Practical implementations of concepts
-└── scripts/       # Development and deployment utilities
+clean-architecture/
+│
+├── docs/                           # Documentation
+│   ├── foreword.md                  # Foreword about the project
+│   ├── preface.md                   # Project introduction and goals
+│   ├── acknowledgments.md           # Credits and acknowledgments
+│   ├── principles/                  # Architectural principles
+│   │   ├── design-principles/       # SOLID principles
+│   │   │   ├── srp.md               # Single Responsibility Principle
+│   │   │   ├── ocp.md               # Open/Closed Principle
+│   │   │   ├── lsp.md               # Liskov Substitution Principle
+│   │   │   ├── isp.md               # Interface Segregation Principle
+│   │   │   └── dip.md               # Dependency Inversion Principle
+│   │   ├── component-principles/    # Component cohesion/coupling
+│   │   └── architectural-principles/
+│   └── case-studies/                # Example implementations
+│
+├── src/                            # Source code
+│   ├── core/                       # Enterprise business rules
+│   │   ├── entities/               # Business objects with critical business rules
+│   │   ├── usecases/               # Application-specific business rules
+│   │   └── interfaces/             # Interfaces for outward communication
+│   │
+│   ├── infrastructure/             # Outer layer: frameworks, databases, UI
+│   │   ├── persistence/            # Database implementations
+│   │   ├── web/                    # Web framework implementations
+│   │   ├── external-services/      # External service integrations
+│   │   └── config/                 # Configuration management
+│   │
+│   ├── application/                # Interface adapters
+│   │   ├── controllers/            # Web controllers
+│   │   ├── presenters/             # Presenters for response models
+│   │   ├── gateways/               # Gateways to external services
+│   │   └── mappers/                # Data mappers between layers
+│   │
+│   └── main/                       # Composition root and entry point
+│       ├── di/                     # Dependency injection configuration
+│       ├── config/                 # Startup configuration
+│       └── app.js|app.py|etc.      # Application entry point
+│
+├── tests/                          # Test suites
+│   ├── unit/                       # Unit tests
+│   │   ├── core/                   # Tests for business rules
+│   │   └── application/            # Tests for interface adapters
+│   ├── integration/                # Integration tests
+│   ├── e2e/                        # End-to-end tests
+│   └── test-api/                   # Testing API utilities
+│
+├── examples/                       # Example implementations
+│   ├── video-sales/                # Case study: Video Sales
+│   ├── embedded/                   # Clean Embedded Architecture example
+│   └── services/                   # Service architecture examples
+│
+├── scripts/                        # Utility scripts
+│   ├── deployment/                 # Deployment scripts
+│   └── code-generation/            # Code generation utilities
+│
+├── .github/                        # GitHub specific files
+│   ├── workflows/                  # CI/CD workflows
+│   └── ISSUE_TEMPLATE/             # Issue templates
+│
+├── .gitignore
+├── README.md                       # Main project documentation
+├── LICENSE
+└── Makefile|build.gradle|etc.      # Build automation
 ```
 
 ### Key Layers:
