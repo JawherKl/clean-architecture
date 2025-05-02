@@ -1,7 +1,8 @@
 # Clean Architecture Template
 
 <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI/CD](https://github.com/JawherKl/clean-architecture/actions/workflows/main.yml/badge.svg)](https://github.com/JawherKl/clean-architecture/actions)-->
+[![CI/CD](https://github.com/JawherKl/clean-architecture/actions/workflows/main.yml/badge.svg)](https://github.com/JawherKl/clean-architecture/actions)
+https://cleancoders.com/-->
 
 A practical implementation of Clean Architecture principles inspired by Robert C. Martin's "Clean Architecture" book. This repository serves as both a reference implementation and a template for new projects.
 
