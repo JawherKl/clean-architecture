@@ -72,4 +72,4 @@ pie
   Aim for >90% ISS
   ```
 
-[Next Principle →](/docs/principles/design-principles/dip.md)
+[Next Principle →](/docs/principles/design/dip.md)

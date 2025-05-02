@@ -65,4 +65,4 @@ graph TD
 - Use **abstract base classes** for stable interfaces
 - Implement **extension points** in critical modules
 
-[Next Principle →](/docs/principles/design-principles/lsp.md)
+[Next Principle →](/docs/principles/design/lsp.md)

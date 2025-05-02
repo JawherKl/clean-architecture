@@ -79,4 +79,4 @@ class ReportGenerator {
 - Use the **30-second rule**: Can you explain a class's purpose in 30 seconds?
 - Monitor **class change frequency** - frequent changes suggest multiple responsibilities
 
-[Next Principle →](/docs/principles/design-principles/ocp.md)
+[Next Principle →](/docs/principles/design/ocp.md)

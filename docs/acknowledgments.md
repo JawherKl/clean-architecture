@@ -31,4 +31,4 @@ Special thanks to:
 > "We shape our buildings; thereafter they shape us."  
 > *— Winston Churchill (adapted for software)*
 
-[Begin Architectural Journey →](/docs/principles/design-principles/srp.md)
+[Begin Architectural Journey →](/docs/principles/design/srp.md)

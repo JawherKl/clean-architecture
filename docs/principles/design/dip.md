@@ -74,4 +74,4 @@ graph LR
   Target >85%
   ```
 
-[Return to Principles Overview →](/docs/principles/design-principles)
+[Return to Principles Overview →](/docs/principles/design)
