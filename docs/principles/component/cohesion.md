@@ -70,6 +70,7 @@ MAJOR.MINOR.PATCH
 ```
 
 ### Code Organization
+
 ```typescript
 // Anti-pattern: Low cohesion
 components/
