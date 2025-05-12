@@ -96,4 +96,4 @@ components/
 | Cross-Component Changes | <15% of total |
 | Unused Class Ratio      | <5%          |
 
-[Explore Coupling Principles: ](./coupling.md)
+[Explore Coupling Principles →](./coupling.md)
