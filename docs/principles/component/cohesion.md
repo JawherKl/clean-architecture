@@ -71,7 +71,7 @@ MAJOR.MINOR.PATCH
 
 ### Code Organization
 
-```typescript
+```bash
 // Anti-pattern: Low cohesion
 components/
   ├── user/
