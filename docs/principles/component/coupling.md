@@ -47,13 +47,12 @@ A = Abstractness = (#abstract classes/total classes)
 
 **Maintain the "Main Sequence"**:
 ```mermaid
-scatterPlot
-    title Abstractness vs Stability
-    x-axis "Stability (0 to 1)"
-    y-axis "Abstractness (0 to 1)"
-    line (0,1) to (1,0)
-    point (0.7, 0.6) --> "Ideal Zone"
-    point (0.9, 0.2) --> "Pain Zone"
+flowchart LR
+    A["High Abstractness, Low Stability<br>(0,1)"] -- "Main Sequence" --> B["Low Abstractness, High Stability<br>(1,0)"]
+    C["Ideal Zone<br>(0.7, 0.6)"]
+    D["Pain Zone<br>(0.9, 0.2)"]
+    C -- "close to Main Sequence" --> B
+    D -.-> B
 ```
 
 ## 🏗 Architectural Patterns
