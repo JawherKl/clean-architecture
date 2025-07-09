@@ -17,7 +17,7 @@ npx madge --circular src/
 graph TD
     A[Orders] --> B[Products]
     B --> C[Inventory]
-    C --> A  # Cycle violation!
+    C --> A[Cycle violation!]
 ```
 
 **Solution**: Introduce `DIP` with interfaces
